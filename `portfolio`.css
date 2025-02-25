@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+}
+.header {
+  width: 100%;
+  height: 48%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.nav1 {
+  width: 80%;
+  height: 15%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 50px;
+  word-spacing: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.nav1icon {
+  display: none;
+}
+.text {
+  width: 48%;
+  height: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  padding-left: 40px;
+}
+.img {
+  width: 35%;
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ff6464;
+  color: white;
+  border-radius: 3%;
+  border: none;
+}
+
+.recentposts {
+  width: 100%;
+  height: 44%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgba(237, 247, 250, 1);
+}
+.postsrecent {
+  padding-top: 10px;
+}
+.nav2 {
+  height: 10%;
+  width: 83%;
+  display: flex;
+  justify-content: space-between;
+}
+.viewall {
+  color: rgba(0, 168, 204, 1);
+  padding: 13px;
+}
+.post {
+  width: 83%;
+  height: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: start;
+}
+.box1 {
+  height: 90%;
+  width: 49%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+}
+.featured {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.nav3 {
+  height: 10%;
+  width: 83%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.works {
+  height: 90%;
+  width: 83%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.boxwork {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  border-bottom: 2px solid rgba(224, 224, 224, 1);
+  padding-bottom: 20px;
+}
+.boxwork1 {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  border-bottom: 2px solid rgba(224, 224, 224, 1);
+  padding-bottom: 20px;
+}
+.boxwork2 {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  border-bottom: 2px solid rgba(224, 224, 224, 1);
+  padding-bottom: 20px;
+}
+.boximg {
+  width: 20%;
+  height: 100%;
+}
+.boxtext {
+  margin-left: 30px;
+  width: 80%;
+  height: 100%;
+}
+.texttime {
+  background-color: rgba(20, 40, 80, 1);
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: 10px;
+  border-radius: 30px;
+}
+
+.footer {
+  width: 100%;
+  height: 18%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  display: flex;
+  width: 28%;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+    height: 92%;
+  }
+  .nav1 {
+    height: 5%;
+  }
+  .nav1text {
+    display: none;
+  }
+  .nav1icon {
+    display: block;
+  }
+  .img {
+    order: 1;
+    width: 100%;
+    height: 40%;
+    padding-top: 50px;
+  }
+  .text {
+    order: 2;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    justify-content: center;
+  }
+  .recentposts {
+    width: 100%;
+    height: 100%;
+  }
+  .postsrecent {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .viewall {
+    display: none;
+  }
+  .nav2 {
+    justify-content: center;
+  }
+  .box1 {
+    width: 100%;
+    height: 49%;
+  }
+
+  .nav3 {
+    justify-content: center;
+    /* height: 2%;
+    padding-top: 50px; */
+  }
+  .works {
+    height: 95%;
+  }
+  .boxwork {
+    flex-wrap: wrap;
+    height: 30%;
+    padding-bottom: 250px;
+  }
+  .boxwork1 {
+    display: none;
+  }
+  .boxwork2 {
+    display: none;
+  }
+  .boximg {
+    width: 100%;
+    height: 60%;
+  }
+  .boxtext {
+    padding-top: 20px;
+  }
+  .icon {
+    width: 50%;
+  }
+}
